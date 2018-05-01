@@ -177,17 +177,37 @@ public class formICS3UUNIT3PROGRAMSU3A3ConvertMe extends javax.swing.JFrame {
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
         System.exit(0);
     }//GEN-LAST:event_jMenuItem1ActionPerformed
-    // Different methods for each calculation  
+    // Different methods for each calculation 
+   /**
+    * Determines the length when converted 
+    * @param length
+    * @return length* 2.54
+    */
     private double inchesToCentimeters(double length){
     return length * 2.54;
 }
-       private double feetToCentimeters(double length){
+    /**
+    * Determines the length when converted 
+    * @param length
+    * @return length* 30
+    */   
+    private double feetToCentimeters(double length){
       return length * 30;
        }
-       private double yardsToMeters(double length) {
+    /**
+    * Determines the length when converted 
+    * @param length
+    * @return length* 0.91
+    */   
+    private double yardsToMeters(double length) {
        return length * 0.91;  
        }
-       private double milesToKilometers(double length){
+    /**
+    * Determines the length when converted 
+    * @param length
+    * @return length* 1.6
+    */   
+    private double milesToKilometers(double length){
       return length * 1.6;
        }
     /**
